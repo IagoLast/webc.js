@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Vanilla Web Components </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./webc.js"></script>
+  <script src="./components/binding.js"></script>
+  <script src="./components/counter.js"></script>
+  <script src="./components/image.js"></script>
+  <script src="./components/timer.js"></script>
+  <script src="./components/applausemeter.js"></script>
+  <script src="./components/filter.js"></script>
+
+  <style>
+    wc-counter,
+    wc-binding,
+    wc-timer,
+    wc-applausemeter,
+    wc-filter {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+    }
+
+    h1,
+    h2,
+    p {
+      font-weight: 300;
+    }
+
+    hr {
+      margin: 30px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <wc-counter></wc-counter>
+  <hr>
+  <wc-binding></wc-binding>
+  <hr>
+  <wc-timer></wc-timer>
+  <hr>
+  <wc-filter></wc-filter>
+  <hr>
+  <wc-applausemeter></wc-applausemeter>
+</body>
+
+</html>
