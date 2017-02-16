@@ -35,8 +35,12 @@ class PElement extends HTMLElement {
   }
 
   setState(state) {
-    this.state = state;
+    this.mapState(state);
     this.render();
+  }
+
+  mapState(state){
+    this.state = state;
   }
 
   render() {

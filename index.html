@@ -6,19 +6,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="./webc.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.js"></script>
+
   <script src="./components/binding.js"></script>
   <script src="./components/counter.js"></script>
   <script src="./components/image.js"></script>
   <script src="./components/timer.js"></script>
   <script src="./components/applausemeter.js"></script>
   <script src="./components/filter.js"></script>
+  <script src="./components/test.js"></script>
+  <script src="./components/hello.js"></script>
+
 
   <style>
+    hello-world,
     wc-counter,
     wc-binding,
     wc-timer,
     wc-applausemeter,
-    wc-filter {
+    wc-filter,
+    wc-test {
       font-family: Arial, Helvetica, sans-serif;
       text-align: center;
       cursor: pointer;
@@ -39,6 +46,8 @@
 </head>
 
 <body>
+  <hello-world></hello-world>
+  <hr>
   <wc-counter></wc-counter>
   <hr>
   <wc-binding></wc-binding>
@@ -48,6 +57,8 @@
   <wc-filter></wc-filter>
   <hr>
   <wc-applausemeter></wc-applausemeter>
+  <hr>
+  <wc-test></wc-test>
 </body>
 
 </html>
